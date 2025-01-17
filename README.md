@@ -99,8 +99,8 @@ Para realizar pruebas, se recomienda el uso de herramientas como Postman o Insom
 
 ### Ejemplo de solicitudes
 #### Crear un nuevo tópico:
--URL: /topicos
--Método: POST
+-URL: `/topicos` 
+-Método: `POST` 
 -Body:
 ~~~
 {
@@ -112,16 +112,17 @@ Para realizar pruebas, se recomienda el uso de herramientas como Postman o Insom
 ~~~
 
 #### Listar todos los tópicos:
--URL: `/topicos`
--Método: `GET`
+-URL: `/topicos` 
+-Método: `GET` 
 
 #### Consultar un tópico por ID:
--URL: `/topicos/1`
--Método: `GET`
+-URL: `/topicos/1` 
+-Método: `GET` 
 
 #### Actualizar un tópico:
--URL: `/topicos/1`
--Método: `PUT`
+-URL: `/topicos/1` 
+
+-Método: `PUT` 
 -Body:
 ~~~
 {
@@ -133,7 +134,7 @@ Para realizar pruebas, se recomienda el uso de herramientas como Postman o Insom
 
 #### Eliminar un tópico:
 
--URL: `/topicos/1`
+-URL: `/topicos/1` 
 -Método: `DELETE`
 
 ## 🤝 Contribuciones
