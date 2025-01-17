@@ -7,19 +7,19 @@ ForoHub es una API REST desarrollada en **Spring Boot** diseñada para gestionar
 ## 🚀 Funcionalidades principales
 
 - **Crear un nuevo tópico**:  
-  Endpoint `/topicos` (POST). Permite registrar un nuevo tópico proporcionando título, mensaje, autor y curso.
+  Endpoint `/topicos` `(POST)`. Permite registrar un nuevo tópico proporcionando título, mensaje, autor y curso.
 
 - **Listar tópicos**:  
-  Endpoint `/topicos` (GET). Devuelve todos los tópicos registrados en formato JSON.
+  Endpoint `/topicos` `(GET)`. Devuelve todos los tópicos registrados en formato JSON.
 
 - **Detalle de un tópico**:  
-  Endpoint `/topicos/{id}` (GET). Permite consultar los detalles de un tópico específico.
+  Endpoint `/topicos/{id}` `(GET)`. Permite consultar los detalles de un tópico específico.
 
 - **Actualizar un tópico**:  
-  Endpoint `/topicos/{id}` (PUT). Permite actualizar los datos de un tópico existente.
+  Endpoint `/topicos/{id}` `(PUT)`. Permite actualizar los datos de un tópico existente.
 
 - **Eliminar un tópico**:  
-  Endpoint `/topicos/{id}` (DELETE). Elimina un tópico de la base de datos.
+  Endpoint `/topicos/{id}` `(DELETE)`. Elimina un tópico de la base de datos.
 
 - **Autenticación con JWT**:  
   Los usuarios deben autenticarse para acceder a los endpoints protegidos. Generación de token en `/login`.
@@ -29,7 +29,7 @@ ForoHub es una API REST desarrollada en **Spring Boot** diseñada para gestionar
 ## ⚙️ Tecnologías utilizadas
 
 - **Java**: JDK 17
-- **Spring Boot**: 3.x
+- **Spring Boot**: 3.4.1
 - **Spring Security**: Implementación de autenticación y autorización.
 - **JWT (JSON Web Token)**: Seguridad basada en tokens.
 - **MySQL**: Base de datos relacional para persistencia.
@@ -112,16 +112,16 @@ Para realizar pruebas, se recomienda el uso de herramientas como Postman o Insom
 ~~~
 
 #### Listar todos los tópicos:
--URL: /topicos
--Método: GET
+-URL: `/topicos`
+-Método: `GET`
 
 #### Consultar un tópico por ID:
--URL: /topicos/1
--Método: GET
+-URL: `/topicos/1`
+-Método: `GET`
 
 #### Actualizar un tópico:
--URL: /topicos/1
--Método: PUT
+-URL: `/topicos/1`
+-Método: `PUT`
 -Body:
 ~~~
 {
@@ -133,8 +133,8 @@ Para realizar pruebas, se recomienda el uso de herramientas como Postman o Insom
 
 #### Eliminar un tópico:
 
--URL: /topicos/1
--Método: DELETE
+-URL: `/topicos/1`
+-Método: `DELETE`
 
 ## 🤝 Contribuciones
 ¡Siempre son bienvenidas las contribuciones! Si deseas colaborar, por favor abre un issue o envía un pull request.
