@@ -51,10 +51,10 @@ ForoHub es una API REST desarrollada en **Spring Boot** diseñada para gestionar
 ## 🛠️ Configuración del proyecto
 
 1. Clona el repositorio:
-   ~~~
-   git clone https://github.com/tu-usuario/foro-hub-api.git
-   cd foro-hub-api
-   ~~~
+~~~
+git clone https://github.com/tu-usuario/foro-hub-api.git
+cd foro-hub-api
+~~~
    
 2. Configura tu base de datos en application.properties:
 
@@ -131,7 +131,7 @@ Para realizar pruebas, se recomienda el uso de herramientas como Postman o Insom
 }
 ~~~
 
-####Eliminar un tópico:
+#### Eliminar un tópico:
 
 -URL: /topicos/1
 -Método: DELETE
